@@ -22,13 +22,12 @@ html, body {
 }
 
 .section .message {
-    font-size: 50px;
     color: white;
     font-weight: 600;
     position: absolute;
     top: 15vh;
     filter: drop-shadow(0px 0px 2px gray);
-    mix-blend-mode: multiply;
+    text-align: center;
 }
 
 .section .scroll-down {
@@ -36,6 +35,17 @@ html, body {
     bottom: 15vh;
 }
 
+.section .card {
+    position: absolute;
+    background-color: rgba(255,255,255, 0.9);
+    color: forestgreen;
+    border-radius: 10px;
+    margin: auto;
+    width: 80vw;
+    height: 20vh;
+    top: 45vh;
+    padding: 10px;
+}
 .flex {
     display: flex;
     justify-content: center;

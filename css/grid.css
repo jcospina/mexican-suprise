@@ -1,0 +1,44 @@
+.travel-grid {
+    display: grid;
+    height: 100%;
+    font-size: 25px;
+    font-weight: 700;
+    grid-template-columns: 1fr 4fr 2fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.travel-grid .fa-plane-departure, .travel-grid .city .from, .travel-grid .time .from {
+    grid-row: 1;
+}
+
+.travel-grid .fa-plane-arrival, .travel-grid .city .to, .travel-grid .time .to{
+    grid-row: 2;
+}
+
+.travel-grid .fa-plane-arrival, .travel-grid .fa-plane-departure {
+    grid-column: 1;
+    justify-self: center;
+    align-self: center;
+}
+
+.travel-grid .city {
+    font-size: 25px;
+    grid-column: 2;
+    justify-self: center;
+    align-self: center;
+}
+
+.travel-grid .time {
+    font-size: 20px;
+    grid-column: 3;
+    justify-self: start;
+    align-self: center;
+}
+
+.city.to {
+    background: linear-gradient(
+            45deg, #006847, #FFF, #CE1126);
+    filter: drop-shadow(0px 0px 1px black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
