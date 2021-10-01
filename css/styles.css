@@ -76,3 +76,14 @@ html {
     display: flex;
     justify-content: center;
 }
+
+.section:nth-last-child(2), .section:last-child {
+    background-image: url("../assets/day_dead.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+img.overlay {
+
+}
