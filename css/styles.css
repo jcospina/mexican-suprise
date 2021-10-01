@@ -13,6 +13,7 @@ body {
 
 html, body {
     scroll-snap-type: y mandatory;
+    scroll-padding: 30px;
 }
 
 .section {
