@@ -1,4 +1,10 @@
-body {
+.background {
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
     font-family: "Grandstander", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-image: url("../assets/bg.jpg");
     background-repeat: no-repeat;
